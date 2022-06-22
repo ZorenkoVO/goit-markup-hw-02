@@ -5,10 +5,11 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "type": "pwa-msedge",
+            "type": "pwa-chrome",
             "request": "launch",
-            "name": "Open portfolio.html",
-            "file": "c:\\Users\\Валдис\\Documents\\GitHub\\goit-markup-hw-02\\portfolio.html"
+            "name": "Launch Chrome against localhost",
+            "url": "http://127.0.0.1:5500/index.html",
+            "webRoot": "${workspaceFolder}"
         }
     ]
 }
