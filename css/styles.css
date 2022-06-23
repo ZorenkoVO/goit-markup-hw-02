@@ -13,10 +13,15 @@ a {
 }
 
 .logo{
-   
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    /* identical to box height */
+    letter-spacing: 0.03em;
+    color: #2196F3;
 }
-
-
 .nav-stud{
     font-weight: 500;
     font-size: 14px;
@@ -24,13 +29,44 @@ a {
     letter-spacing: 0.02em;
     color: #2196F3;
 }
+.nav-portfolio{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #212121;
+}
+
+.nav-contact{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #212121;
+}
+
+.contacts-info{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #2196F3;
+}
+
+.contacts-phone{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #757575;
+}
 
 .main-header{
-
     background: #2F303A;
 }
 .header-tittle{
-
         font-family: 'Roboto';
         font-style: normal;
         font-weight: 900;
@@ -42,16 +78,8 @@ a {
         text-transform: uppercase;
         color: #FFFFFF;
 }
-.header-button{
-        position: absolute;
-        width: 200px;
-        height: 50px;
-        background: #2196F3;
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-        border-radius: 4px;
-}
 
-.style-button{
+.header-button{
    
     font-family: 'Roboto';
     font-size: 16px;
@@ -65,11 +93,31 @@ a {
     background: #2196F3;
     border: none;
 }
-/* ------- class="features"
+/*
+.features{
+
 {
-.features > .features
-}
+
 */
+
+
+.features-title{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #212121;
+}
+
+.p{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
 
 .workinfo > .workinfo-tittle{
     
