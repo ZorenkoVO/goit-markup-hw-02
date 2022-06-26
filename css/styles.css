@@ -2,6 +2,11 @@ body{
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     background-color: #FFFFFF;
+    color:#FFFFFF
+}
+
+header{
+    background: #FFFFFF;
 }
 
 li{
@@ -16,6 +21,14 @@ button{
     cursor: pointer;
 }
 
+.colortext-head {
+    color: rgb(0, 0, 0)
+} 
+
+.colortext-foot {
+    color: rgb(255, 255, 255)
+}
+
 .logo{
     font-family: 'Raleway';
     font-style: normal;
@@ -24,29 +37,18 @@ button{
     line-height: 31px;
     /* identical to box height */
     letter-spacing: 0.03em;
-    color: #2196F3;
-}
-.nav-stud{
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 16px;
-    letter-spacing: 0.02em;
-    color: #2196F3;
-}
-.nav-portfolio{
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 16px;
-    letter-spacing: 0.02em;
-    color: #212121;
+    color: #2196f3;
 }
 
-.nav-contact{
+.nav-list{
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.02em;
-    color: #212121;
+}   
+
+.nav-list:hover {
+    color: tomato;
 }
 
 .contacts-info{
@@ -106,7 +108,7 @@ button{
 */
 
 
-.features-title{
+.features-tittle{
     font-weight: 700;
     font-size: 14px;
     line-height: 16px;
@@ -194,6 +196,11 @@ button{
 
 .footer-section{
     background-color: #2F303A;
+}
+
+.adress-section{
+
+    font-style: normal
 }
 
 .adress{
