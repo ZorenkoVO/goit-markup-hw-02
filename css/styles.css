@@ -43,20 +43,31 @@ button{
 .nav-list{
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 2;
     letter-spacing: 0.02em;
+    
 }   
 
-.nav-list:hover {
-    color: tomato;
+.nav-list .link {
+    color: rgb(0, 0, 0);
 }
 
-.contacts-info{
+.contacts{
+    font-family: 'Roboto';
+    font-style: normal;
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 2;
     letter-spacing: 0.02em;
-    color: #2196F3;
+}
+
+.contacts .link{
+
+    color: rgb(0, 0, 0);
+}
+
+.link:hover {
+    color: #2196f3
 }
 
 .contacts-phone{
