@@ -22,10 +22,11 @@ button{
     cursor: pointer;
 }
 
-button:hover{
-    background-color: #2196f3;
-    color: #FFFFFF;
-}
+:root{
+        --brand-primary: #FFFFFF;
+        --brand-secondary: #2196f3;
+        --brand-tertiary: #212121;
+    }
 
 .colortext-head {
     color: rgb(0, 0, 0)
@@ -36,7 +37,7 @@ button:hover{
 }
 
 .logo{
-    font-family: 'Raleway';
+    font-family: 'Roboto',sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
@@ -59,7 +60,7 @@ button:hover{
 }
 
 .contacts{
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
@@ -77,7 +78,7 @@ button:hover{
 }
 
 .contact-link{
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
@@ -95,7 +96,7 @@ button:hover{
 }
 .header-tittle{
 
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 900;
     font-size: 44px;
@@ -109,26 +110,21 @@ button:hover{
 
 .header-button{
    
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-size: 16px;
     font-weight: 700;
     line-height: 1.9;
     letter-spacing: 0.06em;
     text-align: center;
-
     border: none;
 }
 
-/*
-.features{
-
-{
-
-*/
-
+.header-button:hover{
+    color: var(--brand-primary);
+    background-color: var(--brand-secondary);
+}
 
 .features-tittle{
-    font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.03em;
@@ -138,7 +134,6 @@ button:hover{
 
 .attention
 {
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.7;
     letter-spacing: 0.03em;
@@ -147,7 +142,6 @@ button:hover{
 
 .punctuality{
 
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.7;
     letter-spacing: 0.03em;
@@ -156,7 +150,6 @@ button:hover{
 
 .planning{
 
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.7;
     letter-spacing: 0.03em;
@@ -165,16 +158,22 @@ button:hover{
 
 .technology{
     
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.7;
     letter-spacing: 0.03em;
     color: #757575;
 }
 
+.features-main{
+    font-size: 36px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+
+}
 .workinfo-tittle {
     
-    font-weight: 700;
     font-size: 36px;
     line-height: 1.2;
     text-align: center;
@@ -184,7 +183,6 @@ button:hover{
 
 .staff-tittle{
     
-    font-weight: 700;
     font-size: 36px;
     line-height: 1.2;
     text-align: center;
@@ -206,7 +204,6 @@ button:hover{
 }
 
 .staff-desc{
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.2;
     letter-spacing: 0.03em;
@@ -223,7 +220,6 @@ button:hover{
 }
 
 .adress{
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.7;
 /* or 171% */
@@ -232,7 +228,6 @@ button:hover{
 }
 
 .mail{
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.7;
     letter-spacing: 0.03em;
@@ -240,7 +235,6 @@ button:hover{
 }
 
 .phone{
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.7;
     letter-spacing: 0.03em;
@@ -262,8 +256,14 @@ button:hover{
     color: #212121;
 }
 
+.web-btn:hover {
+    color: var(--brand-primary);
+    background-color: var(--brand-secondary);
+    
+}
+
 .prg-text{
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;;
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
@@ -273,9 +273,8 @@ button:hover{
 }
 
 .project-desc{
-font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;;
     font-style: normal;
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.9;
     /* identical to box height, or 188% */
