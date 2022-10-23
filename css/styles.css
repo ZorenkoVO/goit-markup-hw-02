@@ -28,6 +28,10 @@ button{
         --brand-tertiary: #212121;
     }
 
+.features-main{
+    display: none
+}
+
 .colortext-head {
     color: rgb(0, 0, 0)
 } 
@@ -280,4 +284,7 @@ button{
     /* identical to box height, or 188% */
     letter-spacing: 0.03em;
     color: #757575;
+}
+.portfolio-tittle {
+    display: none;
 }
