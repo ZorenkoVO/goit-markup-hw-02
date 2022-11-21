@@ -40,6 +40,32 @@ button{
     color: rgb(255, 255, 255)
 }
 
+.nav-list .link {
+    color: rgb(0, 0, 0);
+}
+
+.contacts .link {
+
+    color: rgb(0, 0, 0);
+}
+
+.link:hover, 
+.link:focus {
+    color: #2196f3;
+}
+
+.contact-link:hover,
+.contact-link:focus {
+    color: #2196f3
+}
+
+.web-btn:hover,
+.web-btn:focus {
+    color: var(--brand-primary);
+    background-color: var(--brand-secondary);
+
+}
+
 .logo{
     font-family: 'Roboto',sans-serif;
     font-style: normal;
@@ -59,10 +85,6 @@ button{
     
 }   
 
-.nav-list .link {
-    color: rgb(0, 0, 0);
-}
-
 .contacts{
     font-family: 'Roboto', sans-serif;
     font-style: normal;
@@ -70,15 +92,6 @@ button{
     font-size: 14px;
     line-height: 1.14; /*или лучше 1.2?*/
     letter-spacing: 0.02em;
-}
-
-.contacts .link{
-
-    color: rgb(0, 0, 0);
-}
-
-.link:hover {
-    color: #2196f3;
 }
 
 .contact-link{
@@ -89,10 +102,6 @@ button{
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: #757575;
-}
-
-.contact-link:hover{
-    color: #2196f3
 }
 
 .main-header{
@@ -123,10 +132,6 @@ button{
     border: none;
 }
 
-.header-button:hover{
-    color: var(--brand-primary);
-    background-color: var(--brand-secondary);
-}
 
 .features-tittle{
     font-size: 14px;
@@ -258,12 +263,6 @@ button{
     text-align: center;
     letter-spacing: 0.03em;
     color: #212121;
-}
-
-.web-btn:hover {
-    color: var(--brand-primary);
-    background-color: var(--brand-secondary);
-    
 }
 
 .prg-text{
